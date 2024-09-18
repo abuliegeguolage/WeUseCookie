@@ -29,6 +29,19 @@ a {
     color: unset;
 }
 
+hr {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid var(--stronger-primary);
+}
+
+img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
 li {
     display: inline-block;
 }

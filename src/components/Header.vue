@@ -54,6 +54,7 @@ const links = [
 
 <style scoped lang="scss">
 .header {
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -117,14 +118,6 @@ const links = [
     .closer {
         margin: 10px;
         padding: 10px;
-    }
-
-    hr {
-        margin: auto;
-        margin-bottom: 10px;
-        width: 90%;
-        border: none;
-        border-bottom: 1px solid var(--stronger-primary);
     }
 
     li {

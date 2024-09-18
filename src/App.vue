@@ -5,7 +5,9 @@ import Header from './components/Header.vue'
 <template>
   <Header></Header>
   <main>
-    <RouterView />
+    <Suspense>
+      <RouterView />
+    </Suspense>
   </main>
 </template>
 
@@ -13,7 +15,7 @@ import Header from './components/Header.vue'
 main {
   margin: auto;
   width: 80vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--low-key-secondary);
 
   @media screen and (max-width: 767px) {
