@@ -1,0 +1,45 @@
+:root {
+    --primary-color: rgb(255, 230, 170);
+    --low-key-primary: rgba(255, 230, 170, .8);
+    --stronger-primary: hsl(42, 80%, 30%);
+    --secondary-color: rgb(255, 255, 255);
+    --low-key-secondary: rgba(255, 255, 255, .8);
+    --shadow: 0 0 6px var(--stronger-primary);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: .2s;
+}
+
+body {
+    background: url(./assets/images/background/background-horizontal.webp) no-repeat center;
+    background-attachment: fixed;
+    background-size: 100%;
+
+    @media screen and (max-width: 767px) {
+        background-image: url(./assets/images/background/background-vertical.webp);
+        background-size: 130%;
+    }
+}
+
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
+li {
+    display: inline-block;
+}
+
+.button-like {
+    text-align: center;
+    color: var(--stronger-primary);
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: var(--shadow);
+    }
+}

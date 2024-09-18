@@ -4,7 +4,20 @@ import Header from './components/Header.vue'
 
 <template>
   <Header></Header>
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+main {
+  margin: auto;
+  width: 80vw;
+  height: 100vh;
+  background-color: var(--low-key-secondary);
+
+  @media screen and (max-width: 767px) {
+    width: 100vw;
+  }
+}
+</style>
