@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { router } from '../router';
 import { INews } from '../interfaces/News';
+import PageTitle from '../components/PageTitle.vue';
 
 
 const news = await fetch('/json/news.json').then(res => res.json());
@@ -28,6 +29,9 @@ function toNewsSolo(id: string) {
 </script>
 
 <template>
+    <PageTitle>
+        都士小報
+    </PageTitle>
     <ul class="news">
         <li v-for="item in news" @click="toNewsSolo(item.id)" class="button-like">
             <section>

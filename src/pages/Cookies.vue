@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import PageTitle from '../components/PageTitle.vue';
 
 let cookies = await fetch('/json/cookies.json').then(res => res.json());
 console.log(cookies[0].name);
@@ -6,10 +7,9 @@ console.log(cookies[0].name);
 </script>
 
 <template>
-    <h3>
+    <PageTitle>
         餅乾一覽
-    </h3>
-    <hr>
+    </PageTitle>
     <ul class="cookies">
         <li v-for="cookie in cookies">
             <div class="display-case">
@@ -25,11 +25,6 @@ console.log(cookies[0].name);
 </template>
 
 <style scoped lang="scss">
-h3 {
-    padding: 20px;
-    color: var(--stronger-primary);
-}
-
 .cookies {
     display: flex;
     flex-wrap: wrap;
