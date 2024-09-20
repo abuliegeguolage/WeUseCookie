@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/interfaces/news.ts","./src/router/index.ts","./src/app.vue","./src/components/header.vue","./src/components/pagetitle.vue","./src/pages/cookies.vue","./src/pages/faq.vue","./src/pages/home.vue","./src/pages/news.vue","./src/pages/newssolo.vue"],"version":"5.6.2"}

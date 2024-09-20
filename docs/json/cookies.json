@@ -1,0 +1,37 @@
+[
+    {
+        "name": "經典巧克力",
+        "src": "/images/cookies/chocolate-cookie.webp",
+        "desc": "巧克力！巧克力！巧克力！"
+    },
+    {
+        "name": "醬心獨具",
+        "src": "/images/cookies/jam-cookie.webp",
+        "desc": "用心製作餅乾，是我們不變的倔「醬」！"
+    },
+    {
+        "name": "香草餅淇淋",
+        "src": "/images/cookies/ice-cream-cookie.webp",
+        "desc": "冰淇淋遇到餅乾，就像寫前端用了Vue3。"
+    },
+    {
+        "name": "糖霜小圓餅",
+        "src": "/images/cookies/icing-cookie.webp",
+        "desc": "好事成「霜」！"
+    },
+    {
+        "name": "麵團龍捲風",
+        "src": "/images/cookies/curve-cookie.webp",
+        "desc": "美味襲捲而來！"
+    },
+    {
+        "name": "白巧克力覆盆子",
+        "src": "/images/cookies/fungus-cookie.webp",
+        "desc": "它真的不是毒蘑菇。"
+    },
+    {
+        "name": "抹茶芝麻",
+        "src": "/images/cookies/moss-stone-cookie.webp",
+        "desc": "它真的不是長了苔蘚的石頭。"
+    }
+]
