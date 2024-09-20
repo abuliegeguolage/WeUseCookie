@@ -15,13 +15,15 @@ import Header from './components/Header.vue'
 main {
   margin: auto;
   width: 80vw;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--header-h));
   padding: 20px;
   background-color: var(--low-key-secondary);
+  box-sizing: border-box;
 
   @media screen and (max-width: 767px) {
     padding: 10px;
     width: 100vw;
+    min-height: calc(100vh - var(--smaller-header-h));
   }
 }
 </style>

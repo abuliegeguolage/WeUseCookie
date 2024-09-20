@@ -62,8 +62,13 @@ const links = [
     top: 0;
     padding: 6px 40px;
     width: 100%;
+    height: var(--header-h);
     background-color: var(--low-key-primary);
     border-bottom: 1px solid var(--stronger-primary);
+
+    @media screen and (max-width: 767px) {
+        height: var(--smaller-header-h);
+    }
 
     .logo {
         display: flex;
