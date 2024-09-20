@@ -35,7 +35,6 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
-    width: 90%;
 
     li {
         overflow: hidden;
@@ -98,7 +97,7 @@ h3 {
             p {
                 padding: 20px;
                 padding-top: 10px;
-                color: gray;
+                color: var(--low-key-color);
 
                 @media screen and (max-width: 767px) {
                     padding: 10px;
