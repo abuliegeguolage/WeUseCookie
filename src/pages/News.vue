@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { router } from '../router';
 import { INews } from '../interfaces/News';
 import PageTitle from '../components/PageTitle.vue';
 
@@ -22,10 +21,6 @@ news.map((item: INews) => {
     }
 });
 
-function toNewsSolo(id: string) {
-    router.push('news-solo/' + id);
-}
-
 </script>
 
 <template>
@@ -33,15 +28,17 @@ function toNewsSolo(id: string) {
         都士小報
     </PageTitle>
     <ul class="news">
-        <li v-for="item in news" @click="toNewsSolo(item.id)" class="button-like">
-            <section>
-                <h3 class="title">{{ item.title }}</h3>
-                <div class="preview">
-                    <span class="preview-text">{{ item.preview }}</span>
-                    <span @click="toNewsSolo(item.id)" class="read-more">……（點擊以查看全文）</span>
-                </div>
-            </section>
-            <img v-if="item?.cover.src" :src="item.cover.src" :alt="item.cover.desc">
+        <li v-for="item in news" class="button-like">
+            <RouterLink :to="'/news-solo/' + item.id" class="link">
+                <section>
+                    <h3 class="title">{{ item.title }}</h3>
+                    <div class="preview">
+                        <span class="preview-text">{{ item.preview }}</span>
+                        <span class="read-more">……（點擊以查看全文）</span>
+                    </div>
+                </section>
+                <img v-if="item?.cover.src" :src="item.cover.src" :alt="item.cover.desc">
+            </RouterLink>
         </li>
     </ul>
 </template>
@@ -51,7 +48,7 @@ function toNewsSolo(id: string) {
     display: flex;
     flex-direction: column;
 
-    li {
+    .link {
         display: flex;
         justify-content: space-between;
         padding: 20px;
