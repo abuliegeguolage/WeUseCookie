@@ -2,7 +2,7 @@
 
 import PageTitle from '../components/PageTitle.vue';
 
-const faqs = await fetch('/json/faq.json').then(res => res.json());
+const faqs = await fetch('/WeUseCookie/json/faq.json').then(res => res.json());
 
 </script>
 

@@ -4,7 +4,7 @@ import { INews } from '../interfaces/News';
 import PageTitle from '../components/PageTitle.vue';
 
 
-const news = await fetch('/json/news.json').then(res => res.json());
+const news = await fetch('/WeUseCookie/json/news.json').then(res => res.json());
 
 const previewLen = 75;
 

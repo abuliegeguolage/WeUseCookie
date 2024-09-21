@@ -9,7 +9,7 @@ const newsId = href[href.length - 1];
 let news = ref<INews>();
 
 onBeforeMount(async () => {
-    news.value = await fetch('/json/news.json').then(res => res.json())
+    news.value = await fetch('/WeUseCookie/json/news.json').then(res => res.json())
         .then(json => {
             return json.find((item: INews) => item.id === newsId);
         }) as INews;

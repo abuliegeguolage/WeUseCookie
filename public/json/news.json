@@ -3,7 +3,7 @@
         "id": "0",
         "title": "狂賀！都士嘉德成立一天啦！",
         "cover": {
-            "src": "/images/news/environment.webp",
+            "src": "/WeUseCookie/images/news/environment.webp",
             "desc": "是的，我們只有這一張照片！"
         },
         "paragraphs": [
@@ -16,7 +16,7 @@
         "id": "1",
         "title": "都士嘉德的「都」家配方",
         "cover": {
-            "src": "/images/news/processing-cookie.webp",
+            "src": "/WeUseCookie/images/news/processing-cookie.webp",
             "desc": "一塊製作中的餅乾"
         },
         "paragraphs": [
@@ -29,7 +29,7 @@
         "id": "2",
         "title": "都士嘉德為什麼叫都士嘉德？",
         "cover": {
-            "src": "/images/news/environment.webp",
+            "src": "/WeUseCookie/images/news/environment.webp",
             "desc": "沒錯，我們直接用了官網的背景圖片！"
         },
         "paragraphs": [
@@ -41,7 +41,7 @@
         "id": "3",
         "title": "專訪／員工最愛的烤箱是哪一臺？",
         "cover": {
-            "src": "/images/news/oven-403-ultra.webp",
+            "src": "/WeUseCookie/images/news/oven-403-ultra.webp",
             "desc": "店裡最棒的烤箱"
         },
         "paragraphs": [
@@ -55,7 +55,7 @@
         "id": "4",
         "title": "如何分辨都士嘉德餅乾與野生的蘑菇、石頭？",
         "cover": {
-            "src": "/images/news/contrast.webp",
+            "src": "/WeUseCookie/images/news/contrast.webp",
             "desc": "位於盤子上的是兩片都士嘉德餅乾"
         },
         "paragraphs": [
@@ -80,7 +80,7 @@
         "id": "6",
         "title": "回味無「餡」！深入剖析都士嘉德餅乾",
         "cover": {
-            "src": "/images/news/cookie-section.webp",
+            "src": "/WeUseCookie/images/news/cookie-section.webp",
             "desc": "都士嘉德餅乾剖面圖"
         },
         "paragraphs": [
