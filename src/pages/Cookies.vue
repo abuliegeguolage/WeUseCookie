@@ -2,7 +2,6 @@
 import PageTitle from '../components/PageTitle.vue';
 
 let cookies = await fetch('/WeUseCookie/json/cookies.json').then(res => res.json());
-console.log(cookies[0].name);
 
 </script>
 
